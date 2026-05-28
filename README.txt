@@ -4,14 +4,16 @@ SISTEM MANAJEMEN PERPUSTAKAAN
 
 Project UAS Algoritma & Struktur Data
 
-Deskripsi:
-Program ini merupakan aplikasi Sistem Manajemen Perpustakaan berbasis Java.
-Program dibuat menggunakan Java Swing GUI dengan penyimpanan data
-menggunakan file CSV.
+Deskripsi Program:
+Program ini merupakan aplikasi Sistem Manajemen Perpustakaan berbasis Java
+yang dirancang untuk mempermudah pengelolaan data perpustakaan secara digital.
+Aplikasi dikembangkan menggunakan Java Swing GUI sebagai antarmuka pengguna
+dengan sistem penyimpanan data berbasis file CSV, sehingga data dapat
+disimpan dan dikelola dengan lebih terstruktur.
 
-Program memiliki fitur CRUD data buku dan anggota,
-fitur peminjaman dan pengembalian buku, serta fitur
-dashboard statistic perpusatakaan.
+Program menyediakan berbagai fitur utama, seperti pengelolaan data buku
+dan anggota, proses peminjaman serta pengembalian buku, hingga tampilan
+dashboard statistik untuk membantu memantau aktivitas perpustakaan.
 
 ========================================
 ANGGOTA KELOMPOK
@@ -25,88 +27,105 @@ ANGGOTA KELOMPOK
 FITUR PROGRAM
 ========================================
 
-1. Login Admin dan User
-2. CRUD Data Buku
-   - Tambah Buku
-   - Edit Buku
-   - Hapus Buku
-   - Cari Buku
-   - Sort Buku
+1. Sistem Login
+   - Login Admin
+   - Login User
 
-3. CRUD Data Anggota
-   - Tambah Anggota
-   - Edit Anggota
-   - Hapus Anggota
-   - Cari Anggota
+2. Pengelolaan Data Buku
+   - Menambahkan Data Buku
+   - Mengubah Data Buku
+   - Menghapus Data Buku
+   - Pencarian Buku
+   - Pengurutan Data Buku
 
-4. Peminjaman Buku
-5. Pengembalian Buku
-6. Statistik Data (Dashboard)
-7. Penyimpanan Data CSV
+3. Pengelolaan Data Anggota
+   - Menambahkan Data Anggota
+   - Mengubah Data Anggota
+   - Menghapus Data Anggota
+   - Pencarian Data Anggota
+
+4. Sistem Peminjaman Buku
+5. Sistem Pengembalian Buku
+6. Dashboard Statistik Perpustakaan
+7. Penyimpanan Data Menggunakan File CSV
 
 ========================================
 ALGORITMA YANG DIGUNAKAN
 ========================================
 
-Searching:
+Metode Pencarian:
 - Linear Search
 
-Sorting:
+Metode Pengurutan:
 - Bubble Sort
 - Selection Sort
 
 ========================================
-STRUKTUR FILE
+STRUKTUR FILE PROJECT
 ========================================
 
 - PerpustakaanGUI.java
+  (File utama tampilan antarmuka program)
+
 - perpustakaan.java
+  (File logika program dan pengelolaan data)
+
 - databuku.csv
+  (Penyimpanan data buku)
+
 - dataanggota.csv
+  (Penyimpanan data anggota)
+
 - datapinjam.csv
+  (Penyimpanan data transaksi peminjaman)
+
 - README.txt
+  (Dokumentasi program)
 
 ========================================
 CARA MENJALANKAN PROGRAM
 ========================================
 
-1. Buka project menggunakan:
+1. Buka project menggunakan IDE seperti:
    - NetBeans
-   - VS Code
+   - Visual Studio Code (VS Code)
 
-2. Pastikan Java JDK sudah terinstall.
+2. Pastikan Java JDK versi 17 atau lebih baru telah terpasang pada perangkat.
 
-3. Jalankan file PerpustakaanGUI.java
+3. Jalankan file:
+   - PerpustakaanGUI.java
 
-4. Program akan menampilkan menu login (admin/user).
+4. Setelah program dijalankan, pengguna akan diarahkan ke halaman login
+   untuk memilih akses sebagai Admin atau User.
 
-5. lalu nanti ditampilkan beberapa panel
-   
-    Admin.
-	1. panel dashboard
-	2. panel databuku
-	3. panel dataanggota
-	4. panel peminjamanbuku
-    User.
-	1. panel dashboard
-	2. panel databuku
-	3. panel peminjamanbuku
+5. Setelah berhasil login, sistem akan menampilkan panel sesuai hak akses:
 
+   Admin:
+   - Dashboard
+   - Data Buku
+   - Data Anggota
+   - Peminjaman Buku
 
-
-========================================
-REQUIREMENT
-========================================
-
-- Java JDK 17 atau lebih baru
-- Sistem Operasi Windows/Linux
+   User:
+   - Dashboard
+   - Data Buku
+   - Peminjaman Buku
 
 ========================================
-CATATAN
+SPESIFIKASI SISTEM
 ========================================
 
-- Data disimpan menggunakan file CSV.
-- Program dibuat untuk memenuhi tugas
-  UAS Algoritma & Struktur Data.
+- Java JDK 17 atau versi terbaru
+- Sistem Operasi Windows atau Linux
+
+========================================
+KETERANGAN TAMBAHAN
+========================================
+
+- Seluruh data disimpan menggunakan format file CSV.
+- Program dikembangkan sebagai bentuk implementasi tugas
+  Ujian Akhir Semester (UAS) mata kuliah Algoritma & Struktur Data.
+- Aplikasi dirancang untuk membantu proses pengelolaan perpustakaan
+  menjadi lebih efektif, terorganisir, dan mudah digunakan.
 
 ========================================
