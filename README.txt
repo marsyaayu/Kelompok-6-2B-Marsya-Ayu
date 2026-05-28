@@ -7,11 +7,11 @@ Project UAS Algoritma & Struktur Data
 Deskripsi Program:
 Program ini merupakan aplikasi Sistem Manajemen Perpustakaan berbasis Java
 yang dirancang untuk mempermudah pengelolaan data perpustakaan secara digital.
-Aplikasi dikembangkan menggunakan Java Swing GUI sebagai antarmuka pengguna
+Aplikasi dikembangkan menggunakan Java Swing GUI sebagai perantara pengguna
 dengan sistem penyimpanan data berbasis file CSV, sehingga data dapat
 disimpan dan dikelola dengan lebih terstruktur.
 
-Program menyediakan berbagai fitur utama, seperti pengelolaan data buku
+Program ini menyediakan berbagai fitur utama, seperti pengelolaan data buku
 dan anggota, proses peminjaman serta pengembalian buku, hingga tampilan
 dashboard statistik untuk membantu memantau aktivitas perpustakaan.
 
